@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'websocket-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.7'
@@ -38,3 +39,14 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+#Testing
+gem "rspec-rails", :group => [:development, :test] #Unit test framework
+#gem "database_cleaner", :group => :test #For cleaning database during unit tests
+#gem "cucumber-rails", :group => :test, :require => false #Behaviour driven development
+#gem "factory_girl_rails", :group => [:development, :test] #Factory for DB data
+#gem "shoulda-matchers", :group => :test #Collection of Rails testing matchers
+#gem 'cucumber-api-steps', :require => false, :group => :test #Cucumber steps for API
+#gem 'json_spec', group: :test # JSON matchers for tests
+
+#gem 'coffee-rails', group: [:assets]
+#gem 'uglifier', group: [:assets]
